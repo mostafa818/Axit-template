@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.c_orange{
+    color: orange;
+}
+header{
+    background: black;
+    color: white;
+    padding: 20px 20px;
+    position: sticky;
+}
+header a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+header h2{
+    /* background-color: red; */
+    display: inline-block;
+    width: 50%;
+}
+nav{
+    /* background-color: blue; */
+    display: inline;
+    width: 50%;
+}
+.start{
+    background-image: url(Screenshot.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    background-color: grey;
+}
+.shadow{
+    background-color: rgba(0, 0, 0, 0.41);
+    color: white;
+    height: 100%;
+    padding: 75px 50px;
+}
+hr{
+    margin: 20px 0;
+    width: 100px;
+    display: inline-block;
+}
+.lhs{
+    width: 50%;
+    display: inline-block;
+    height: 100%;
+    margin: auto;
+    margin: auto;
+}
+.lhs input{
+    width: 50%;
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+    border: solid white;
+    color: white;
+    margin-top: 15px;
+}
+form h4{
+    color: black;
+    padding: 15px;
+}
+.rhs{
+    width: auto;
+    display: inline-block;
+    height: auto;
+    border: 0;
+    margin-left: 50px;
+}
+.rhs form{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    border: 0;
+}
+form input{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid grey;
+    height: 30px;
+    padding: 10px;
+    margin: 10px 0 10px 10px;
+}
+.btn{
+    width: 100%;
+    background-color: orange;
+    color: white;
+    height: 40px;
+    margin: 0;
+}
+section{
+    /* background-color: grey; */
+    padding: 25px 50px;
+}
+.sm{
+    /* background-color: aqua; */
+    width: 60%;
+    display: inline-block;
+}
+.icns{
+    /* background-color: green; */
+    display: inline-block;
+    font-size: 50px;
+    color: rgba(128, 128, 128, 0.688);
+    line-height: 0;
+}
+li{
+    display: inline;
+    margin: 0 10px 10px 0;
+}
+.mid-sec{
+    background-color: rgba(128, 128, 128, 0.263);
+    padding: 20px;
+}
+.tabs{
+    width: 100px;
+    display: inline-block;
+    /* background-color: aqua; */
+}
+.tab{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding-left: 30px;
+    padding-top: 35px;
+}
+#tab1{
+    background-color: rgba(0, 0, 0, 0.701);
+    color: white;
+}
+.middle{
+    /* background-color: blue; */
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    line-height: 1.25;
+    padding: 10px 20px;
+}
+.middle h4{
+    margin: 0 10px 10px 10px;
+}
+.middle p{
+    margin-bottom: 10px;
+}
+.middle input{
+    background-color: orange;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 3px;
+}
+.pic{
+    /* background-color: brown; */
+    display: inline-block;
+    width: 300px;
+}
+.pic img{
+    width: 300px;
+}
+#list{
+    width: 100%;
+    overflow: hidden;
+    margin: 30px 0;
+    clear: both;
+}
+.list_left{
+    width: 50%;
+    float: left;
+}
+.list_left img{
+    width: 100%;
+}
+.list_right{
+    width: 50%;
+    float: right;
+}
+.list_right hr{
+    width: 25%;
+    margin: 10px 0;
+}
+.list_right p{
+    margin: 10px 0;
+}
+.list_right i{
+    /* background-color: blueviolet; */
+    color: orange;
+    font-size: 30px;
+    margin: 5px 5px 50px 0;
+    float: left;
+}
+.article{
+    /* background-color: aqua; */
+    width: 80%;
+    float: right;
+}
+#ovre{
+    overflow: hidden;
+    clear: both;
+}
+#stndrd_pic{
+    /* background-color: aqua; */
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+}
+#stndrd_pic .list_right img{
+    width: 100%;
+}
+section hr{
+    width: 15%;
+    height: 2px;
+    border-radius: 5px;
+    background-color: orange;
+    border: 0;
+}
+#stndrd_pic p{
+    margin-bottom: 20px;
+}
+#awesome{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+#awesome hr{
+    width: 10%;
+}
+#awesome p{
+    margin: 10px;
+}
+.icon{
+    width: 30%;
+    margin-top: 20px;
+}
+#bulb{
+    float: left;
+}
+#keyboard{
+    float: left;
+    margin-left: 30px;
+}
+#energy{
+    float: right;
+}
+.icon i{
+    font-size: 20px;
+    border: 2px solid;
+    border-color: orange;
+    border-radius: 50%;
+    color: orange;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+#price{
+    width: 100%;
+    text-align: center;
+}
+#price li{
+    display: block;
+    padding-right: 25px;
+}
+#price hr{
+    width: 10%;
+}
+.cardss{
+    margin: 30px 0;
+    overflow: hidden;
+    clear: both;
+}
+.card{
+    width: 30%;
+}
+#leftcard{
+    float: left;
+    position: relative;
+    top: 20px;
+}
+#mid_card{
+    float: left;
+    margin-left: 5%;
+}
+#rightcard{
+    float: right;
+    position: relative;
+    top: 20px;
+}
+.pricecard{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.792);
+    color: white;
+    border-bottom: 4px solid orange;
+    margin-bottom: 10px;
+}
+#price .head{
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+.pricecard p{
+    display: inline-block;
+}
+.dollar-sign{
+    font-size: 15px;
+}
+.nmbr{
+    font-size: 50px;
+}
+#mid_card .pricecard{
+    border-bottom: 0;
+}
+#mid_card #foot{
+    padding: 5px;
+    background-color: orange;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#testemonials{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+#testemonials hr{
+    width: 15%;
+}
+.op{
+    width: 30%;
+    margin-top: 25px;
+}
+#left_op{
+    float: left;
+}
+#mid_op{
+    float: left;
+    margin-left: 5%;
+}
+#right_op{
+    float: right;
+}
+.dscrptn{
+    margin-bottom: 25px;
+    text-align: left;
+}
+.Contact{
+    width: 100%;
+    overflow: hidden;
+}
+.profile_pic{
+    float: left;
+}
+.profile_info{
+    float: right;
+    padding: 15px 30px;
+}
+#stylish{
+    width: 100%;
+    text-align: center;
+    background-image: url(news.jpg);
+    color: white;
+}
+#stylish hr{
+    width: 15%;
+    background-color: white;
+}
+.bgimage input{
+    margin-top: 15px;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+}
+#contactus{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+}
+.contact_frm{
+    width: 50%;
+    margin-top: 25px;
+}
+#cntct_left{
+    float: left;
+    padding-right: 6px;
+}
+#cntct_right{
+    float: right;
+    padding-left: 6px;
+}
+.contact_frm input{
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.666);
+    margin-bottom: 3px;
+}
+textarea{
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.666);
+    height: 87px;
+}
+#contactus .sendmessege input{
+    position: relative;
+    left: 175px;
+    margin-top: 20px;
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer ul{
+    margin-bottom: 10px;
+    padding-right: 20px;
+    color: white
+}
+footer i{
+    background-color: black;
+    margin-left: 2px;
+    border: 0;
+    font-size: 20px;
+}
